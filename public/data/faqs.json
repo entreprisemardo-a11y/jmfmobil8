@@ -1,0 +1,161 @@
+[
+  {
+    "id": "part-1",
+    "category": "PARTICULIERS",
+    "q": "Pourquoi un particulier avec 1, 2 ou 3 véhicules a-t-il intérêt à utiliser JMF Fleet ?",
+    "a": "Même avec un seul véhicule à usage personnel ou familial, gérer vos voitures comme une flotte professionnelle protège durablement votre investissement. Vous bénéficiez des mêmes technologies que les grandes entreprises : traçabilité GPS en temps réel 24h/24, protection antivol avec coupe-moteur à distance en cas de car-jacking, surveillance bienveillante des trajets confiés à un chauffeur ou à vos proches, fin des surfacturations de carburant et carnet de santé numérique garantissant un entretien préventif sans casse mécanique imprévue.",
+    "tag": "Usage personnel & Famille",
+    "badge": "Avantage Clé"
+  },
+  {
+    "id": "part-2",
+    "category": "PARTICULIERS",
+    "q": "Comment fonctionne la protection antivol et le coupe-moteur à distance pour mon véhicule personnel ?",
+    "a": "En cas de tentative de vol, d’effraction, de déplacement suspect la nuit ou de car-jacking, vous recevez une alerte prioritaire immédiate sur votre smartphone par notification push et message WhatsApp. Directement depuis votre application, vous suivez la position exacte au mètre près et pouvez actionner en un clic sécurisé le coupe-circuit qui immobilise le démarreur du véhicule sans danger. Notre centrale d’intervention JMF peut également assister les forces de sécurité pour une interception rapide.",
+    "tag": "Sécurité & Antivol 24/7",
+    "badge": "Coupe-moteur 1 clic"
+  },
+  {
+    "id": "part-3",
+    "category": "PARTICULIERS",
+    "q": "Puis-je surveiller la conduite de mon chauffeur ou l’usage de la voiture par mes proches ?",
+    "a": "Absolument. Vous définissez vos zones habituelles de confiance (domicile, école des enfants, lieu de travail, supermarché). L’application vous alerte immédiatement si le véhicule quitte ces zones sans autorisation, dépasse la vitesse maximale autorisée, ou reste stationné moteur allumé de façon anormale. Vous gardez l’esprit tranquille pour vos enfants et éliminez l’utilisation clandestine de votre véhicule le week-end ou lors des courses du quotidien.",
+    "tag": "Chauffeur privé & Trajets",
+    "badge": "Géorepérage"
+  },
+  {
+    "id": "part-4",
+    "category": "PARTICULIERS",
+    "q": "Quelles économies concrètes un particulier réalise-t-il sur son budget auto mensuel ?",
+    "a": "Nos utilisateurs particuliers constatent en moyenne 15% à 25% d’économies annuelles sur leur budget automobile. Ces gains proviennent de la fin des pleins de carburant fictifs ou surfacturés, de la suppression des détours non autorisés, et surtout de l’entretien préventif : anticiper une vidange ou le remplacement des plaquettes et de la courroie au bon kilométrage évite des pannes moteurs majeures à plusieurs millions de francs.",
+    "tag": "Économies Carburant & TCO",
+    "badge": "Jusqu’à -25%"
+  },
+  {
+    "id": "part-5",
+    "category": "PARTICULIERS",
+    "q": "Comment JMF m’aide-t-il pour le contrôle technique, la taxe automobile et l’assurance ?",
+    "a": "Fini le stress d’oublier une date d’échéance et de risquer une contravention ou la mise en fourrière ! JMF centralise les dates de vos pièces et vous envoie des rappels par SMS, WhatsApp et email 30 jours, 15 jours et 7 jours avant l’expiration de votre visite technique, taxe automobile et assurance.",
+    "tag": "Conformité & Assurances",
+    "badge": "Zéro Amende"
+  },
+  {
+    "id": "part-sms",
+    "category": "PARTICULIERS",
+    "q": "Comment fonctionne le système d’alertes SMS en temps réel pour la maintenance de mon véhicule ?",
+    "a": "Grâce à la télématique connectée, JMF calcule automatiquement le kilométrage réel de votre voiture et anticipe chaque révision (vidange moteur, filtres, plaquettes de frein, courroie, batterie). Dès qu’un seuil est franchi (ex. reste moins de 600 km ou échéance dans 7 jours), vous recevez instantanément une alerte SMS sur votre numéro GSM avec les détails de l’intervention et l’estimation du tarif. Vous pouvez confirmer votre prise en charge au centre technique JMF ou demander une équipe mobile directement en répondant au message.",
+    "tag": "Alertes SMS Temps Réel",
+    "badge": "Nouveau • Live GSM"
+  },
+  {
+    "id": "part-6",
+    "category": "PARTICULIERS",
+    "q": "L’installation de la balise GPS risque-t-elle d’abîmer ma voiture ou d’annuler la garantie constructeur ?",
+    "a": "Non, absolument pas. Nos techniciens certifiés JMF interviennent directement sur vos sites, dans vos locaux ou dans nos centres techniques partenaires. L’installation prend 30 à 45 minutes par véhicule sans altérer la garantie constructeur ni couper les faisceaux d’origine. L’intervention est 100% invisible, propre et compatible avec tous les modèles (citadines, berlines de luxe, SUV, 4x4 et pick-up).",
+    "tag": "Installation certifiée JMF"
+  },
+  {
+    "id": "part-7",
+    "category": "PARTICULIERS",
+    "q": "Mes déplacements et ma vie privée restent-ils strictement confidentiels ?",
+    "a": "La confidentialité de votre vie privée est notre priorité absolue. Vos données de localisation, vos adresses et vos historiques de conduite sont cryptés de bout en bout et demeurent strictement confidentiels sur vos accès privés. Aucun tiers ni entreprise n’y a accès, et JMF ne commercialise jamais vos données de déplacement.",
+    "tag": "Vie privée & Confidentialité"
+  },
+  {
+    "id": "part-8",
+    "category": "PARTICULIERS",
+    "q": "Quel est le coût de la formule Particulier et comment créer son compte ou tester l’application ?",
+    "a": "L’offre Particulier est accessible dès 1 seul véhicule avec une tarification forfaitaire transparente et multi-devises, sans engagement de durée contraignant. Vous pouvez créer votre compte en 2 minutes ou joindre notre conseiller WhatsApp direct au +229 01 97 83 21 21 / +33 6 50 05 91 61.",
+    "tag": "Tarifs & Inscription simple",
+    "badge": "Accès Immédiat"
+  },
+  {
+    "id": "pro-doc-1",
+    "category": "PRO",
+    "q": "À qui s’adressent les services de JMF Mobility Services en Afrique ?",
+    "a": "Nos solutions s'adressent à toutes les entreprises, acteurs publics, concessionnaires et loueurs qui gèrent des parcs de véhicules légers, de camions, d'engins lourds ou de flottes de transport (personnes et marchandises). Nos interventions couvrent des secteurs clés du développement économique africain : le BTP, les mines, les carrières, les transports routiers et la logistique industrielle.",
+    "tag": "Secteurs & Entreprises"
+  },
+  {
+    "id": "pro-doc-2",
+    "category": "PRO",
+    "q": "Intervenez-vous partout en Afrique ?",
+    "a": "Oui. JMF Mobility Services déploie son expertise et ses missions d'audit à travers le continent. Grâce à une organisation agile et à notre plateforme digitale, nous accompagnons les entreprises sur leurs différents sites d'exploitation, en nous adaptant aux spécificités réglementaires, routières et opérationnelles de chaque pays.",
+    "tag": "Couverture Afrique"
+  },
+  {
+    "id": "pro-doc-3",
+    "category": "PRO",
+    "q": "Comment fonctionne votre plateforme digitale de gestion de flotte ?",
+    "a": "Notre plateforme SaaS a été entièrement pensée et conçue pour répondre aux réalités des marchés africains. Elle permet de :\n\nCentraliser les données techniques et l'historique de toute la flotte.\n\nAssurer un suivi de l'activité en temps réel.\n\nRecevoir des alertes et notifications préventives automatisées (visites techniques, assurances, vidanges, pièces d'usure) pour éviter les pannes immobilisantes.\n\nAssigner, suivre et tracer les tâches correctives confiées aux équipes sur le terrain.",
+    "tag": "Plateforme SaaS"
+  },
+  {
+    "id": "pro-doc-4",
+    "category": "PRO",
+    "q": "L'outil s'adapte-t-il aux différentes devises et contextes locaux ?",
+    "a": "Oui. Notre plateforme est nativement multidevises (permettant la gestion en francs CFA (XOF) et (XAF)en GNF, le franc Guinéen - GNF etc...",
+    "tag": "Multidevises"
+  },
+  {
+    "id": "pro-doc-5",
+    "category": "PRO",
+    "q": "Mes données d’exploitation sont-elles sécurisées et confidentielles ?",
+    "a": "La sécurité et la confidentialité sont nos priorités absolues. Vos données sont hébergées sur des serveurs cloud hautement sécurisés. Vous demeurez l’unique propriétaire de vos données. À la fin d'un abonnement, l'intégralité de votre historique vous est restituée sous format standard (Excel/CSV) avant d'être définitivement et totalement purgée de nos serveurs.",
+    "tag": "Sécurité & Données"
+  },
+  {
+    "id": "pro-1",
+    "category": "PRO",
+    "q": "Comment s’effectue l’installation des balises télématiques GPS sur nos véhicules d’entreprise ?",
+    "a": "Nos techniciens certifiés JMF interviennent directement sur vos sites, dans vos locaux ou dans nos centres techniques et ateliers régionaux. L’installation prend 30 à 45 minutes par véhicule sans altérer la garantie constructeur ni couper les faisceaux d’origine. Nous planifions les interventions par lots pour minimiser l’impact sur vos rotations opérationnelles.",
+    "tag": "Déploiement Pro",
+    "badge": "Intervention Sur Site"
+  },
+  {
+    "id": "pro-2",
+    "category": "PRO",
+    "q": "La plateforme est-elle conforme aux réglementations et visites techniques en Afrique ?",
+    "a": "Oui, JMF Fleet intègre nativement le calendrier réglementaire de chaque pays : suivi des visites techniques réglementaires, renouvellement des cartes grises, vignettes automobiles et alertes automatiques 30 jours avant échéance par email et WhatsApp pour l’ensemble de votre parc.",
+    "tag": "Réglementations & Conformité",
+    "badge": "100% Conforme"
+  },
+  {
+    "id": "pro-3",
+    "category": "PRO",
+    "q": "En quoi consiste le service de Gardiennage & Centre de stockage ?",
+    "a": "JMF met à votre disposition des centres de stockage logistiques sécurisés sous vidéosurveillance 24h/24 et procédure d’entrée/sortie certifiée par QR code et badge conducteur pour les parcs d’entreprises, de particuliers et véhicules de transit portuaire.",
+    "tag": "Hubs logistiques & Sécurité"
+  },
+  {
+    "id": "pro-4",
+    "category": "PRO",
+    "q": "L’application mobile pour les chauffeurs fonctionne-t-elle hors connexion ?",
+    "a": "Oui, l’application conducteur JMF dispose d’un mode hors-ligne complet. Les chauffeurs peuvent remplir leur check-list d’inspection avant départ et saisir les pleins de carburant même dans les zones sans réseau ; les données sont automatiquement synchronisées dès le retour d’une connexion GSM.",
+    "tag": "App Chauffeur Offline"
+  },
+  {
+    "id": "pro-5",
+    "category": "PRO",
+    "q": "Vos tarifs sont-ils en FCFA et adaptés aux devises locales à travers l'Afrique ?",
+    "a": "Absolument. Toutes nos offres sont facturées en Francs CFA ainsi que dans les monnaies et devises locales selon chaque pays en Afrique, avec des formules mensuelles ou annuelles flexibles et transparentes, adaptées aussi bien aux flottes légères de 5 véhicules qu’aux grands parcs de plus de 500 unités.",
+    "tag": "Facturation & Devis",
+    "badge": "FCFA & Devises Locales"
+  },
+  {
+    "id": "pro-6",
+    "category": "PRO",
+    "q": "Comment le module carburant prévient-il les détournements et surfacturations ?",
+    "a": "Le système croise en temps réel la consommation théorique des moteurs, les données de nos sondes télématiques immergées et les tickets de caisse ou relevés des cartes pétrolières. Toute baisse anormale de niveau de carburant à l'arrêt déclenche une alerte de siphonnage instantanée.",
+    "tag": "Contrôle Carburant",
+    "badge": "Anti-Siphonnage"
+  },
+  {
+    "id": "pro-7",
+    "category": "PRO",
+    "q": "Proposez-vous une solution pour les sites miniers et chantiers BTP isolés ?",
+    "a": "Oui, nous équipons les flottes opérant sur chantiers miniers ou industriels avec des balises hybrides 4G/Satellite Iridium garantissant 100% de couverture même hors réseau GSM. Cette formule inclut des boutons SOS anti-panique, des arceaux ROPS certifiés et la supervision des engins lourds.",
+    "tag": "Mines & BTP",
+    "badge": "Satellite Iridium"
+  }
+]

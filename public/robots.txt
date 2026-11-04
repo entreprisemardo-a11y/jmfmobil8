@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /?page=convoyage
+Allow: /?page=pieces-auto
+Allow: /?page=rental
+Allow: /kit-backlinks.html
+
+Sitemap: https://jmfmobilityservices.com/sitemap.xml

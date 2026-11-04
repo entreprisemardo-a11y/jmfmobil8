@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B18" />
+      <stop offset="45%" stop-color="#0B1528" />
+      <stop offset="85%" stop-color="#081020" />
+      <stop offset="100%" stop-color="#020610" />
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="blue-glow" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#0066CC" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#003875" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#060B18" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cyan-glow" cx="75%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#0050B3" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#060B18" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Logo JMF Royal Blue Gradient -->
+    <linearGradient id="jmf-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0050B3" />
+      <stop offset="40%" stop-color="#0077E6" />
+      <stop offset="100%" stop-color="#00B4FF" />
+    </linearGradient>
+
+    <!-- Titanium Steel Gradient -->
+    <linearGradient id="jmf-steel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8FA0B5" />
+      <stop offset="50%" stop-color="#B8C7D8" />
+      <stop offset="100%" stop-color="#6C7A89" />
+    </linearGradient>
+
+    <!-- Car Body Metal Gradient -->
+    <linearGradient id="suv-body" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#E2E8F0" />
+      <stop offset="60%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+
+    <!-- Pickup Hilux Gradient -->
+    <linearGradient id="hilux-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="40%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Glass Gradient -->
+    <linearGradient id="glass-reflect" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="telematics-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.8" stroke-opacity="0.5" />
+      <circle cx="40" cy="40" r="1" fill="#38BDF8" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Ground Perspective Grid -->
+    <linearGradient id="ground-fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#0F172A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Neon Cyan Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep Corporate Space Background -->
+  <rect width="1200" height="675" fill="url(#bg-grad)" />
+  <rect width="1200" height="675" fill="url(#blue-glow)" />
+  <rect width="1200" height="675" fill="url(#cyan-glow)" />
+
+  <!-- Background Tech Perspective Grid -->
+  <rect y="0" width="1200" height="420" fill="url(#telematics-grid)" opacity="0.45" />
+
+  <!-- Digital Ground Horizon Line & Perspective Floor -->
+  <g opacity="0.6">
+    <ellipse cx="600" cy="520" rx="650" ry="180" fill="url(#ground-fade)" />
+    <!-- Perspective Speed Trajectories -->
+    <line x1="600" y1="360" x2="50" y2="675" stroke="#0088EA" stroke-width="1.2" stroke-opacity="0.4" stroke-dasharray="8 6" />
+    <line x1="600" y1="360" x2="280" y2="675" stroke="#0088EA" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="600" y1="360" x2="500" y2="675" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="12 8" />
+    <line x1="600" y1="360" x2="700" y2="675" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="12 8" />
+    <line x1="600" y1="360" x2="920" y2="675" stroke="#0088EA" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="600" y1="360" x2="1150" y2="675" stroke="#0088EA" stroke-width="1.2" stroke-opacity="0.4" stroke-dasharray="8 6" />
+  </g>
+
+  <!-- Telemetry Radar Scanning Ring Center-Right -->
+  <g transform="translate(940, 190)" opacity="0.45">
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#0088EA" stroke-width="1" stroke-dasharray="6 4" />
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#00D2FF" stroke-width="1.5" stroke-opacity="0.8" />
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#0088EA" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="0" cy="0" r="6" fill="#00D2FF" />
+    <line x1="-150" y1="0" x2="150" y2="0" stroke="#0088EA" stroke-width="0.8" />
+    <line x1="0" y1="-150" x2="0" y2="150" stroke="#0088EA" stroke-width="0.8" />
+    <!-- Blip targets -->
+    <circle cx="45" cy="-60" r="3.5" fill="#10B981" />
+    <circle cx="-70" cy="35" r="3.5" fill="#10B981" />
+    <text x="55" y="-55" fill="#10B981" font-family="monospace" font-size="9" font-weight="bold">#BJ-4501-RB</text>
+    <text x="-120" y="40" fill="#38BDF8" font-family="monospace" font-size="9">IoT 4G OK</text>
+  </g>
+
+  <!-- West Africa Corridor Coordinates & Map Nodes (Subtle Background) -->
+  <g opacity="0.35" transform="translate(100, 140)">
+    <circle cx="60" cy="50" r="4" fill="#38BDF8" />
+    <circle cx="120" cy="70" r="4" fill="#38BDF8" />
+    <circle cx="190" cy="45" r="4" fill="#38BDF8" />
+    <circle cx="260" cy="80" r="4" fill="#10B981" />
+    <path d="M 60 50 Q 90 65 120 70 T 190 45 T 260 80" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="4 3" />
+    <text x="270" y="84" fill="#38BDF8" font-family="monospace" font-size="10" font-weight="bold">BENIN • HUB COTONOU</text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- HERO CENTER: BRAND SIGNATURE & LOGO JMF MOBILITY SERVICES -->
+  <!-- ======================================================== -->
+  <g transform="translate(600, 150)">
+    <!-- Ambient Logo Glow Disc -->
+    <ellipse cx="0" cy="15" rx="360" ry="110" fill="url(#blue-glow)" />
+
+    <!-- Official JMF Vector Monogram (Enlarged & Polished) -->
+    <g transform="translate(-185, -95) scale(0.95)">
+      <!-- Trajectory Arc -->
+      <path d="M 148 68 C 170 34, 255 32, 316 88" stroke="#00D2FF" stroke-width="3" stroke-dasharray="6 4" fill="none" filter="url(#neon-glow)" />
+      
+      <!-- Letter J -->
+      <path d="M 54 42 L 108 42 L 104 55 L 86 55 L 75 94 C 71 106, 62 116, 44 116 C 36 116, 28 114, 25 110 C 27 106, 32 104, 38 104 C 47 104, 55 98, 59 88 L 68 55 L 50 55 Z" fill="url(#jmf-blue)" />
+      
+      <!-- Letter M -->
+      <path d="M 106 42 L 131 42 L 149 84 L 174 42 L 199 42 L 178 116 L 157 116 L 169 74 L 145 116 L 133 116 L 118 74 L 106 116 L 85 116 Z" fill="url(#jmf-blue)" />
+      
+      <!-- Letter F -->
+      <path d="M 197 42 L 253 42 L 249 55 L 225 55 L 221 70 L 243 70 L 239 83 L 217 83 L 208 116 L 187 116 Z" fill="url(#jmf-steel)" />
+      
+      <!-- Cyan Speed Streaks -->
+      <path d="M 258 42 L 288 42 L 284 48 L 256 48 Z" fill="#00D2FF" />
+      <path d="M 253 53 L 280 53 L 276 59 L 251 59 Z" fill="#00D2FF" />
+      <path d="M 248 64 L 272 64 L 268 70 L 246 70 Z" fill="#00D2FF" />
+
+      <!-- Radar Pin & Target -->
+      <circle cx="342" cy="95" r="25" stroke="#00D2FF" stroke-width="2.5" stroke-dasharray="5 3" fill="none" />
+      <circle cx="342" cy="95" r="14" stroke="#0077E6" stroke-width="1.5" fill="none" />
+      <circle cx="342" cy="95" r="5" fill="#10B981" />
+    </g>
+
+    <!-- Company Name Main Wordmark -->
+    <text x="0" y="75" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" letter-spacing="4">
+      JMF MOBILITY SERVICES
+    </text>
+
+    <!-- Subtitle / Positioning -->
+    <text x="0" y="108" text-anchor="middle" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14" letter-spacing="5">
+      HUB INTERNATIONAL DE MOBILITÉ &amp; GESTION DE FLOTTE
+    </text>
+
+    <!-- Corporate Badges Under Title -->
+    <g transform="translate(0, 130)">
+      <!-- Badge 1: Hub Afrique -->
+      <g transform="translate(-230, 0)">
+        <rect x="-85" y="-12" width="170" height="24" rx="12" fill="#0F172A" stroke="#0284C7" stroke-width="1" />
+        <text x="0" y="4" text-anchor="middle" fill="#93C5FD" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">
+          🌍 AFRIQUE DE L'OUEST
+        </text>
+      </g>
+      <!-- Badge 2: Télématique 4G IoT -->
+      <g transform="translate(0, 0)">
+        <rect x="-95" y="-12" width="190" height="24" rx="12" fill="#064E3B" fill-opacity="0.6" stroke="#10B981" stroke-width="1" />
+        <circle cx="-75" cy="0" r="3.5" fill="#34D399" />
+        <text x="8" y="4" text-anchor="middle" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">
+          IoT 4G GPS CONNECTÉ
+        </text>
+      </g>
+      <!-- Badge 3: Multi-Devises & Flotte 4x4 -->
+      <g transform="translate(230, 0)">
+        <rect x="-85" y="-12" width="170" height="24" rx="12" fill="#0F172A" stroke="#0284C7" stroke-width="1" />
+        <text x="0" y="4" text-anchor="middle" fill="#93C5FD" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">
+          🛡️ CONFORMITÉ &amp; CNSR
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- FOREGROUND: VECTOR 3D STYLIZED FLEET (TOYOTA HILUX & SUV) -->
+  <!-- ======================================================== -->
+  <g transform="translate(600, 480)">
+    <!-- Vehicle Ground Shadows -->
+    <ellipse cx="-130" cy="70" rx="220" ry="22" fill="#000000" fill-opacity="0.75" />
+    <ellipse cx="140" cy="75" rx="230" ry="24" fill="#000000" fill-opacity="0.8" />
+
+    <!-- ---------------------------------------------------- -->
+    <!-- LEFT VEHICLE: TOYOTA HILUX 4x4 DOUBLE CABINE (PICKUP) -->
+    <!-- ---------------------------------------------------- -->
+    <g transform="translate(-140, -10)">
+      <!-- Main Cab & Bed Body -->
+      <path d="M -180 30 L -140 28 L -90 -25 L 30 -25 L 70 8 L 130 10 L 140 40 L -180 40 Z" fill="url(#hilux-body)" stroke="#38BDF8" stroke-width="1.5" />
+      
+      <!-- Pickup Cargo Bed (Arceau & Benne) -->
+      <path d="M 65 10 L 135 12 L 135 38 L 65 38 Z" fill="#090E1A" stroke="#475569" stroke-width="1" />
+      <path d="M 68 8 L 90 -18 L 115 -18 L 118 10" fill="none" stroke="#64748B" stroke-width="3" /> <!-- Roll bar -->
+
+      <!-- Cabin Roof & Windows -->
+      <path d="M -80 -22 L 20 -22 L 55 8 L -45 8 Z" fill="url(#glass-reflect)" stroke="#38BDF8" stroke-width="1" />
+      <line x1="-15" y1="-22" x2="-10" y2="8" stroke="#1E293B" stroke-width="2.5" /> <!-- B-Pillar -->
+
+      <!-- Front Grille & Heavy Duty Bumper -->
+      <path d="M -180 32 L -165 32 L -162 48 L -182 48 Z" fill="#020617" stroke="#64748B" stroke-width="1" />
+      <rect x="-185" y="42" width="12" height="18" rx="2" fill="#334155" /> <!-- Winch / Guard -->
+
+      <!-- LED Headlight Cyan Glow -->
+      <polygon points="-160,28 -140,28 -145,34 -160,34" fill="#00D2FF" filter="url(#neon-glow)" />
+
+      <!-- Wheels Heavy Duty 4x4 -->
+      <!-- Front Wheel -->
+      <g transform="translate(-120, 48)">
+        <circle cx="0" cy="0" r="28" fill="#0B132B" stroke="#334155" stroke-width="4" />
+        <circle cx="0" cy="0" r="17" fill="#1E293B" stroke="#64748B" stroke-width="2" />
+        <circle cx="0" cy="0" r="6" fill="#38BDF8" />
+      </g>
+      <!-- Rear Wheel -->
+      <g transform="translate(90, 50)">
+        <circle cx="0" cy="0" r="28" fill="#0B132B" stroke="#334155" stroke-width="4" />
+        <circle cx="0" cy="0" r="17" fill="#1E293B" stroke="#64748B" stroke-width="2" />
+        <circle cx="0" cy="0" r="6" fill="#38BDF8" />
+      </g>
+
+      <!-- Snorkel (Afrique & Chantiers Poussière) -->
+      <path d="M -90 -22 L -90 15 L -96 20" fill="none" stroke="#1E293B" stroke-width="3.5" />
+
+      <!-- Vehicle Tag / Callout -->
+      <g transform="translate(-40, 22)">
+        <rect x="-55" y="-8" width="110" height="16" rx="4" fill="#0B1329" stroke="#38BDF8" stroke-width="0.8" />
+        <text x="0" y="3.5" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="8" font-weight="800">
+          HILUX 4x4 #BJ-4501
+        </text>
+      </g>
+    </g>
+
+    <!-- ---------------------------------------------------- -->
+    <!-- RIGHT VEHICLE: TOYOTA LAND CRUISER PRADO EXECUTIVE SUV -->
+    <!-- ---------------------------------------------------- -->
+    <g transform="translate(150, 0)">
+      <!-- Main SUV Body (White Metallic Prestige) -->
+      <path d="M -145 28 L -115 -20 L 45 -20 L 105 -5 L 125 15 L 135 42 L -155 42 Z" fill="url(#suv-body)" stroke="#94A3B8" stroke-width="1.2" />
+
+      <!-- Roof Rails & Executive Tinted Glass -->
+      <path d="M -105 -25 L 35 -25" stroke="#475569" stroke-width="3" stroke-linecap="round" />
+      <path d="M -105 -17 L 35 -17 L 85 8 L -45 8 Z" fill="url(#glass-reflect)" stroke="#0284C7" stroke-width="0.8" />
+      <line x1="-35" y1="-17" x2="-30" y2="8" stroke="#334155" stroke-width="2.5" />
+      <line x1="20" y1="-17" x2="25" y2="8" stroke="#334155" stroke-width="2" />
+
+      <!-- Chrome Grille & LED Light -->
+      <polygon points="120,20 132,22 130,30 118,28" fill="#00D2FF" filter="url(#neon-glow)" />
+      <line x1="125" y1="28" x2="135" y2="28" stroke="#F8FAFC" stroke-width="2" />
+
+      <!-- Wheels Executive Diamond Alloy -->
+      <!-- Rear Wheel -->
+      <g transform="translate(-95, 48)">
+        <circle cx="0" cy="0" r="28" fill="#0F172A" stroke="#334155" stroke-width="4" />
+        <circle cx="0" cy="0" r="18" fill="#CBD5E1" stroke="#475569" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="5" fill="#0284C7" />
+      </g>
+      <!-- Front Wheel -->
+      <g transform="translate(85, 48)">
+        <circle cx="0" cy="0" r="28" fill="#0F172A" stroke="#334155" stroke-width="4" />
+        <circle cx="0" cy="0" r="18" fill="#CBD5E1" stroke="#475569" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="5" fill="#0284C7" />
+      </g>
+
+      <!-- Side JMF Livery Strip -->
+      <path d="M -90 28 L 80 28" stroke="#0077E6" stroke-width="2.5" />
+
+      <!-- Vehicle Tag -->
+      <g transform="translate(0, 24)">
+        <rect x="-55" y="-8" width="110" height="16" rx="4" fill="#0F172A" stroke="#00D2FF" stroke-width="0.8" />
+        <text x="0" y="3.5" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="8" font-weight="800">
+          PRADO VIP #BJ-1122
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Border Frame Accent Lines -->
+  <rect x="1" y="1" width="1198" height="673" rx="16" fill="none" stroke="#0284C7" stroke-width="1" stroke-opacity="0.3" />
+  <line x1="40" y1="20" x2="160" y2="20" stroke="#00D2FF" stroke-width="2" />
+  <line x1="1040" y1="20" x2="1160" y2="20" stroke="#00D2FF" stroke-width="2" />
+</svg>

@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="visuel-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="40%" stop-color="#0B1528" />
+      <stop offset="80%" stop-color="#07101E" />
+      <stop offset="100%" stop-color="#020408" />
+    </linearGradient>
+
+    <!-- Blue Cyan Accent Gradient -->
+    <linearGradient id="visuel-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Emerald Glow -->
+    <linearGradient id="visuel-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- High Tech Mesh Grid -->
+    <pattern id="visuel-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.8" stroke-opacity="0.35" />
+      <circle cx="40" cy="40" r="1.2" fill="#38BDF8" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Shadow -->
+    <filter id="v-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.7" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#visuel-bg)" />
+  <rect width="1200" height="800" fill="url(#visuel-grid)" />
+
+  <!-- Luminous Orbs & Rays -->
+  <circle cx="250" cy="220" r="320" fill="#0284C7" opacity="0.14" filter="blur(70px)" />
+  <circle cx="950" cy="550" r="360" fill="#0050B3" opacity="0.18" filter="blur(80px)" />
+
+  <!-- Top Accent Band -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#visuel-cyan)" />
+
+  <!-- Main Container Card -->
+  <g transform="translate(80, 60)" filter="url(#v-shadow)">
+    <!-- Base Card -->
+    <rect x="0" y="0" width="1040" height="680" rx="28" fill="#081324" stroke="#1E3A8A" stroke-width="1.5" />
+
+    <!-- Card Top Header -->
+    <g transform="translate(50, 45)">
+      <!-- Logo Mark -->
+      <rect x="0" y="0" width="56" height="56" rx="16" fill="url(#visuel-cyan)" />
+      <text x="28" y="38" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="28" font-weight="900" text-anchor="middle">J</text>
+
+      <!-- Company Name & Category -->
+      <g transform="translate(75, 8)">
+        <div xmlns="http://www.w3.org/1999/xhtml"></div>
+        <text x="0" y="24" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="900" letter-spacing="1">
+          JMF MOBILITY SERVICES
+        </text>
+        <text x="0" y="44" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="2">
+          DIRECTION GÉNÉRALE &amp; HUB LOGISTIQUE
+        </text>
+      </g>
+
+      <!-- Badge Référence Officielle -->
+      <g transform="translate(690, 8)">
+        <rect x="0" y="0" width="250" height="42" rx="21" fill="#047857" fill-opacity="0.2" stroke="#10B981" stroke-width="1.2" />
+        <circle cx="22" cy="21" r="5" fill="#34D399" />
+        <text x="36" y="26" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="12" font-weight="800">
+          SIÈGE SOCIAL OFFICIEL
+        </text>
+      </g>
+    </g>
+
+    <!-- Horizontal Divider -->
+    <line x1="50" y1="125" x2="990" y2="125" stroke="#1E293B" stroke-width="1.2" />
+
+    <!-- HIGHLIGHTED ADDRESS HERO PANEL (Vodjè lot 1061, Cotonou, Bénin) -->
+    <g transform="translate(50, 155)">
+      <rect x="0" y="0" width="940" height="180" rx="22" fill="#0D1E38" stroke="#38BDF8" stroke-width="2" />
+      
+      <!-- Icon Pin Box -->
+      <g transform="translate(35, 35)">
+        <circle cx="35" cy="35" r="35" fill="#0284C7" fill-opacity="0.25" />
+        <text x="35" y="45" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="32" text-anchor="middle">📍</text>
+      </g>
+
+      <!-- Address Content -->
+      <g transform="translate(130, 35)">
+        <text x="0" y="16" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">
+          ADRESSE DU SIÈGE SOCIAL &amp; DIRECTION
+        </text>
+
+        <!-- EXACT ADDRESS TEXT -->
+        <text x="0" y="58" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" letter-spacing="0.5">
+          Vodjè lot 1061, Cotonou, Bénin
+        </text>
+
+        <text x="0" y="92" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="15" font-weight="500">
+          Zone Résidentielle &amp; Commerciale • Hub Administratif, Opérations &amp; Flotte JMF
+        </text>
+      </g>
+    </g>
+
+    <!-- Detail Information Grid (3 Columns) -->
+    <g transform="translate(50, 365)">
+      <!-- Col 1: Horaires & Accueil -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="295" height="185" rx="18" fill="#0A1629" stroke="#1E3A5F" stroke-width="1" />
+        <circle cx="35" cy="35" r="16" fill="#F59E0B" fill-opacity="0.2" />
+        <text x="35" y="41" fill="#FBBF24" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">🕒</text>
+        <text x="65" y="38" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="800">
+          Horaires &amp; Accueil
+        </text>
+        <text x="20" y="80" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">
+          Bureaux Administratifs :
+        </text>
+        <text x="20" y="102" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="13" font-weight="700">
+          Lun - Ven : 08h00 - 19h00
+        </text>
+        <text x="20" y="122" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="13" font-weight="700">
+          Samedi : 09h00 - 14h00
+        </text>
+        <rect x="20" y="142" width="220" height="26" rx="8" fill="#064E3B" />
+        <text x="130" y="159" fill="#34D399" font-family="system-ui, sans-serif" font-size="11" font-weight="800" text-anchor="middle">
+          ● Astreinte 24/7 Disponible
+        </text>
+      </g>
+
+      <!-- Col 2: Hub Afrique (WhatsApp & Direct) -->
+      <g transform="translate(322, 0)">
+        <rect x="0" y="0" width="295" height="185" rx="18" fill="#0A1629" stroke="#1E3A5F" stroke-width="1" />
+        <circle cx="35" cy="35" r="16" fill="#10B981" fill-opacity="0.2" />
+        <text x="35" y="41" fill="#34D399" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">📞</text>
+        <text x="65" y="38" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="800">
+          Hub Afrique &amp; Bénin
+        </text>
+        <text x="20" y="75" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">
+          Ligne Fixe Siège :
+        </text>
+        <text x="20" y="95" fill="#E2E8F0" font-family="monospace" font-size="13" font-weight="700">
+          +229 01 21 24 88 70
+        </text>
+        <text x="20" y="125" fill="#34D399" font-family="system-ui, sans-serif" font-size="11" font-weight="700">
+          WhatsApp &amp; Direct :
+        </text>
+        <text x="20" y="148" fill="#10B981" font-family="monospace" font-size="16" font-weight="800">
+          +229 01 97 83 21 21
+        </text>
+      </g>
+
+      <!-- Col 3: Sénégal & Email -->
+      <g transform="translate(645, 0)">
+        <rect x="0" y="0" width="295" height="185" rx="18" fill="#0A1629" stroke="#1E3A5F" stroke-width="1" />
+        <circle cx="35" cy="35" r="16" fill="#38BDF8" fill-opacity="0.2" />
+        <text x="35" y="41" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">🇸🇳</text>
+        <text x="65" y="38" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="800">
+          Hub Sénégal &amp; Digital
+        </text>
+        <text x="20" y="68" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700">
+          📍 SICAP N°6760, Liberté 6, Dakar
+        </text>
+        <text x="20" y="92" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">
+          Sénégal (Appel &amp; WhatsApp) :
+        </text>
+        <text x="20" y="112" fill="#10B981" font-family="monospace" font-size="13" font-weight="700">
+          +221 77 598 43 92
+        </text>
+        <text x="20" y="138" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">
+          Courriel officiel :
+        </text>
+        <text x="20" y="158" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700">
+          contact@jmfmobilityservices.com
+        </text>
+      </g>
+    </g>
+
+    <!-- Bottom Bar inside Card -->
+    <g transform="translate(50, 580)">
+      <rect x="0" y="0" width="940" height="65" rx="14" fill="#040A14" />
+      <text x="25" y="38" fill="#64748B" font-family="system-ui, sans-serif" font-size="11.5">
+        JMF Mobility Services • Bénin : Vodjè lot 1061, Cotonou • Sénégal : SICAP N°6760, Liberté 6, Dakar
+      </text>
+      <text x="915" y="38" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="end">
+        🌐 www.jmfmobilityservices.com
+      </text>
+    </g>
+  </g>
+</svg>
